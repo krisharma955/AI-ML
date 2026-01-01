@@ -1,4 +1,5 @@
 #Lists -> mutable sequence of values
+#? Lists are ordered
 
 marks = [88, 90, 78, 87, 99]
 print(marks)
