@@ -1,5 +1,4 @@
-fresh file
- text appended
- text appended
- text appended
- text appended
+This is a demo file
+to store some words
+for the Python activity
+that is to be solved by us.
