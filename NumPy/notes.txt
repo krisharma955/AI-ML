@@ -1,0 +1,35 @@
+NumPy - Numerical Python (module)
+for fast numerical computing (uses c inside the hood)
+ndArrays (n dimensional arrays) - very fast as compare to python lists
+
+py lists - flexible (can hold diff types of data) - hence, slow, stores metadata as well apart from actual data(takes more memory)
+
+np arrays - homogeneous, optmizied with C - very fast (mathematical operations), optimized in time & space in comparison with py lists, stores data in continous memory blocks, built in mathematical operations & support direct vectorized operations
+
+np array methods:
+> np_arr.nbytes - gives the size of np array in bytes
+> np_arr.dtype - gives the data type of elements in the array
+> np_arr.shape - gives the dimension(m * n) of the array
+> np_arr.ndim - total no of dimensions: 1d(1), 2d(2)....
+> np_arr.astype(np.float64) - type casting
+
+> np.zeros((x, y)) - prefill with 0s
+> np.ones((x, y)) - prefill with 1s
+> np.full((x, y), value) - prefill with a value
+> np.eye(x) - to create a identity matrix
+> np.arange(start, end, step) - range elements (similar to range in py lists)
+> np.linspace(start, end, step) - to create evenly spaced arrays
+
+operations:
+> np_arr.reshape((y, x)) - reshaping (x, y) np array to (y, x)
+> np_arr.flatten() - flattens the array 2D => 1d
+> Fancy Indexing - accessing multiple idxs at one time (uses vectorization) - arr[[idxs]]
+> Boolean Indexing - filtering on the basis of condition - arr[condition]
+
+
+slicing: (simliar to lists)
+> lists - copy is created(new memory is allocated) - changes doesn't reflect in org list
+
+> np arrays - view is created(no new memory is allocated) - now viewing at a subarray of the orginal array, changes reflect in org array
+
+> copy in np arrays - np_arr[x:y].copy() - copy of view, changes now doesn't relfect to org array
