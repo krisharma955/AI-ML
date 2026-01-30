@@ -33,3 +33,13 @@ slicing: (simliar to lists)
 > np arrays - view is created(no new memory is allocated) - now viewing at a subarray of the orginal array, changes reflect in org array
 
 > copy in np arrays - np_arr[x:y].copy() - copy of view, changes now doesn't relfect to org array
+
+Common Data types:
+> Integers - int32, int64
+> Floating numbers - float32, float64
+> Boolean - bool
+> Complex numbers - complex64, complex128
+> String - S (byte - str) & U (unicode - str)
+> Object: generic python objects - object
+
+Images are stored in numbers in a matrix
